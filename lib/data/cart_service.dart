@@ -16,7 +16,7 @@ class CartService{
     cartItems.add(item);
   }
   static void removeFromCart(Cart item){
-    cartItems.add(item);
+    cartItems.remove(item);
   }
   static List<Cart> getCart(){
     return cartItems;
