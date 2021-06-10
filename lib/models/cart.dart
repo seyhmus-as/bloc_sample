@@ -1,4 +1,4 @@
-import 'package:bloc_sample/models/Product.dart';
+import 'package:bloc_sample/models/product.dart';
 
 class Cart{
   Product product;

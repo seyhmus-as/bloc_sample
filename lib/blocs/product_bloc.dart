@@ -13,4 +13,4 @@ class ProductBloc {
   }
 }
 
-final productBloc = ProductBloc();
+final productBloc = new ProductBloc();

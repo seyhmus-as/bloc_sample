@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:bloc_sample/data/cart_service.dart';
 import 'package:bloc_sample/models/cart.dart';
 
-class Cartbloc {
+class CartBloc{
   // ignore: close_sinks
   final cartStreamController = StreamController.broadcast();
 
@@ -24,4 +24,4 @@ class Cartbloc {
   }
 }
 
-final cartBloc = Cartbloc();
+final cartBloc = new CartBloc();
